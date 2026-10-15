@@ -4,3 +4,8 @@ VCD info: dumpfile wave.vcd opened for output.
 PASS traffic: full cycle, pedestrian blink, flicker, reset
 C:\Users\sumin\fpga\traffic\sim\tb_traffic.sv:47: $finish called at 2186000 (1ps)
 
+[2] FAIL 로그
+FATAL: C:\Users\sumin\fpga\traffic\sim\tb_traffic.sv:26: traffic dir=0 phase=10 sub=0
+       Time: 406000  Scope: tb.check
+
+ERROR: 종료 코드 1: C:\Users\sumin\fpga\traffic\build\sim\run-5d25eda17fa24a9da4a24eaad7a5ad64\simulation.log
