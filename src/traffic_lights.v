@@ -18,7 +18,7 @@ module traffic_lights(
         if(flicker) begin
             red=0; yellow={4{blink}}; walk_red={4{blink}};
         end else begin
-            if(phase<=9) begin green=vehicle_mask; red=~vehicle_mask; end
+            if(phase<=10) begin green=vehicle_mask; red=~vehicle_mask; end
             else begin yellow=vehicle_mask; red=~vehicle_mask; end
             if(phase<=3) begin walk_green=pedestrian_mask; walk_red=~pedestrian_mask; end
             else if(phase<=10) begin
