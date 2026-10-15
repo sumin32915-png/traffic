@@ -1,0 +1,6 @@
+[1] PASS 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\fpga\traffic\build\sim\run-bc1e0e0c4d4048bfb35d8327b763e9e3\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+PASS traffic: full cycle, pedestrian blink, flicker, reset
+C:\Users\sumin\fpga\traffic\sim\tb_traffic.sv:47: $finish called at 2186000 (1ps)
+
